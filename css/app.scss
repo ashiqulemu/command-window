@@ -62,7 +62,9 @@ body {
             color: #00FF00;
             padding: 9px;
             outline: 0;
-        
+            &:focus{
+                color: #00FF00;
+            }
         }
     }
 }

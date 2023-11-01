@@ -54,4 +54,7 @@ body {
   color: #00FF00;
   padding: 9px;
   outline: 0;
+}
+.terminal-box .body .input:focus {
+  color: #00FF00;
 }/*# sourceMappingURL=app.css.map */
