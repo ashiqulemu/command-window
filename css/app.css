@@ -22,6 +22,11 @@ body {
   overflow-y: auto;
   background: rgba(0, 0, 0, 0.768627451);
 }
+@media (max-width: 768px) {
+  .terminal-box {
+    width: 95%;
+  }
+}
 .terminal-box::-webkit-scrollbar {
   background-color: #1E2234;
   width: 4px;

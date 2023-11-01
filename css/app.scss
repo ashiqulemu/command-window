@@ -21,17 +21,23 @@ body {
     min-height: 550px;
     max-height: 550px;
     border: 1px solid $primary;
-    overflow-y: auto; 
-    background: #000000c4; 
+    overflow-y: auto;
+    background: #000000c4;
+
+    @media(max-width:768px) {
+        width: 95%;
+        
+    }
 
     &::-webkit-scrollbar {
         background-color: #1E2234;
         width: 4px;
-      }
-     &::-webkit-scrollbar-thumb {
+    }
+
+    &::-webkit-scrollbar-thumb {
         border-radius: 50px;
         background: #FF3B4D;
-      }
+    }
 
     .header {
         display: flex;
@@ -43,38 +49,41 @@ body {
         top: 0;
 
         .items {
-            &:nth-child(1){
+            &:nth-child(1) {
                 padding-left: 15px;
                 display: flex;
                 align-items: center;
                 font-size: 13px;
                 column-gap: 5px;
-                img{
+
+                img {
                     pointer-events: none;
                 }
             }
+
             i {
                 color: #fff;
                 padding: 7px 14px;
-                &:hover{
-                    background:#5d01e1;
+
+                &:hover {
+                    background: #5d01e1;
                     cursor: pointer;
                 }
             }
-            
+
         }
     }
-    .body{
-        .input{ 
+
+    .body {
+        .input {
             min-height: 357px;
             color: #00FF00;
             padding: 9px;
             outline: 0;
-            &:focus{
+
+            &:focus {
                 color: #00FF00;
             }
         }
     }
 }
-
-
