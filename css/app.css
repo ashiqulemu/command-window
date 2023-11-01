@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("../images/bg.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.terminal-box {
+  width: 60%;
+  min-height: 550px;
+  max-height: 550px;
+  border: 1px solid #6900FF;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, 0.768627451);
+}
+.terminal-box::-webkit-scrollbar {
+  background-color: #1E2234;
+  width: 4px;
+}
+.terminal-box::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #FF3B4D;
+}
+.terminal-box .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6900ff;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+.terminal-box .header .items:nth-child(1) {
+  padding-left: 15px;
+}
+.terminal-box .header .items i {
+  color: #fff;
+  padding: 7px 14px;
+}
+.terminal-box .header .items i:hover {
+  background: #5d01e1;
+  cursor: pointer;
+}
+.terminal-box .body .input {
+  min-height: 357px;
+  color: #00FF00;
+  padding: 9px;
+  outline: 0;
+}/*# sourceMappingURL=app.css.map */
