@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,43 @@
     <link rel="stylesheet" href="./css/rain.css">
     <link rel="stylesheet" href="./css/fontawesome-free-6.4.2-web/css/all.min.css">
 </head>
+
 <body oncontextmenu="return false;">
+    <!-- for rain effect -->
+    <div class="rain front-row"></div>
 
-    <div class="rain front-row"></div> 
+    <!-- command box start -->
     <div class="terminal-box">
-
+        <!-- command box header start -->
         <div class="header">
             <div class="items">
-              <img src="./images/putty.png" width="18px" height="20px"> <span>
-                212.142.325.120 - PuTTY
-              </span>
+                <img src="./images/putty.png" width="18px" height="20px"> <span>
+                    212.142.325.120 - PuTTY
+                </span>
             </div>
-            <div class="items"> 
+            <div class="items">
+                <!-- command box header icon added -->
                 <i class="fa-solid fa-minus"></i>
                 <i class="fa-regular fa-square"></i>
                 <i class="fa-solid fa-xmark"></i>
             </div>
         </div>
+        <!-- command box header end -->
+        <!-- command box body start -->
         <div class="body">
-           <code>
+            <code>
             <div type="text"  contenteditable="true" class="input"  id="inputBox"></div>
            </code>
         </div>
+        <!-- command box end -->
 
     </div>
 
-
+    <!-- command box end -->
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/app.js"></script>
     <script src="./js/rain.js"></script>
 </body>
+
 </html>
